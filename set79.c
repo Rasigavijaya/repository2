@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void) 
 {
 	int n1,n2,pro,i,flag=0;
