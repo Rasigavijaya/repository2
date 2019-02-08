@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void) 
 {
 	float l,b,a;
