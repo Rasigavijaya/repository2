@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+ int a[50],i,t=1,min,pos=1,n,k;
+ scanf("%d",&n);
+ for(i=0;i<n;i++)
+ {
+  scanf("%d",&a[i]);
+ }
+ k=(n+1)-k;
+ min=a[0];
+ while(t<=k)
+ {
+ for(i=0;i<n;i++)
+ {
+  if(a[i]<min)
+  {
+   min=a[i];
+   pos=i;
+  }
+ }
+ if(t==k)
+ {
+  printf("%d",min);
+ }
+ else
+ {
+  a[pos]=0;
+ }
+ t++;
+}
+}
